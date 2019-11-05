@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Over Ons</title>
+    <link rel="stylesheet" href="./overons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <div class="navbar">
+      <a  onclick="myFunctionHome()" href="#home">Home</a>
+      <a  onclick="myFunctionOverOns()" href="#news">Over Ons</a>
+      <a  onclick="myFunctionContent()" href="#content">Vragen</a>
+      <a  onclick="myFunctionzoeken()" href="#zoeken">Zoeken</a>
+      <a onclick="myFunctionVakantiebestemmingen()" href="#Vakantiebestemmingen">Vakantiebestemmingen</a>
+      <div style="float:right" class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">MENU
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="../home/home.html">Home</a>
+        <a href="../OverOns/overons.html">Over Ons</a>
+        <a href="../Contcten/contcten.html">Vragen</a>
+        <a href="../zoeken/zoeken.html">Zoeken</a>
+        <a href="../Vakantiebestemmingen/Vakantiebestemmingen.html">Vakantiebestemmingen</a>
+      </div>
+      </div>
+    </div>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="wereldv.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+      <h1>Over Ons:</h1>
+      <p><li>Wereld OverStekenn help u altijd om je beste vakantie plek ter vinden. wij hebben hier beste plekken te ontdekken, nieuwe mensen te ontmoeten én om onze lezers mee te laten delen in hun ervaringen.</li><li> Natuurlijk lees je ook over de laatste reistrends en vind je heel veel tips en foto’s voor reizigers die op zoek zijn naar informatie over een bestemming die zij willen bezoeken.</li></p>
+      <h4>Nog wat!</h4>
+      <p>Ben jij ook helemaal gek van reizen, en wil je jouw reisverhalen met onze lezers delen? Stuur dan een e-mail naar vakantie@WereldOverSteken.nl</p>
+     <button id="myBtn" onclick="vstop()">Pause</button>
+    </div>
+
+        <script src="overons.js"></script>
+
+  </body>
+</html>

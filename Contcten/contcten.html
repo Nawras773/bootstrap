@@ -1,0 +1,122 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <title>Wereld OverSteken</title>
+    <link rel="stylesheet" href="./contcten.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <a  onclick="myFunctionHome()" href="#home">Home</a>
+      <a  onclick="myFunctionContent()" href="#content">Vragen</a>
+      <a  onclick="myFunctionzoeken()" href="#zoeken">Zoeken</a>
+      <a onclick="myFunctionVakantiebestemmingen()" href="#Vakantiebestemmingen">Vakantiebestemmingen</a>
+      <div style="float:right" class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">MENU
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="../home/home.html">Home</a>
+        <a href="../OverOns/overons.html">Over Ons</a>
+        <a href="../Contcten/contcten.html">Vragen</a>
+        <a href="../zoeken/zoeken.html">Zoeken</a>
+        <a href="../Vakantiebestemmingen/Vakantiebestemmingen.html">Vakantiebestemmingen</a>
+      </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <h1>Wereld OverSteken</h1>
+      <h3>V O O R V R A G E N</h3>
+    </div>
+    <img src="../dic/contcten.png" class="img"/>
+    <div class="container">
+      <form action="/action_page.php">
+
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Voor Naam:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Voor Naam..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Achter Naam:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Achter Naam..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Email Adres:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Email Adres..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Telefoon Numer:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Telefoon Numer..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Man/Vrouw</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="australia">Man/Vrouw</option>
+            <option value="australia">Man</option>
+            <option value="canada">Vrouw</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Omerking:</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Waar kunnen wij jou heblpen.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input id="submit" type="submit" value="Sturen">
+      </div>
+      </form>
+    </div>
+
+          <div class="social">
+            <h1>C O N N E C T E N</h1>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div><br><br>
+    <footer>
+    				<div class="container">
+              <h2>Contcten</h2>
+                <p>+31-6-123456789</p>
+                <p>vakantie@vakantie.com</p>
+                <p>omdrinstraaat 420</p>
+                <p>1234 XD Groningen</p><br>
+    					<h2>Onze tijden</h2>
+              <p>Maandag t/m vrijdag: 10:00 - 17:00</p>
+              <p>Zaterdag en zondag: Gesloten</p><br>
+    				</div>
+    			</footer>
+
+          <script src="https://kit.fontawesome.com/2a0f696f00.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="contcten.js"></script>
+  </body>
+</html>
